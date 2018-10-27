@@ -1,0 +1,202 @@
+*{
+    margin: 0%;padding: 0; box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 2% auto;
+   
+}
+.chatting{
+    display: none;
+}
+.chat{
+    width: 100%;
+    height: 600px;
+    background-color:#50575C;
+    border-radius: 13px;
+   outline: none;
+    overflow: scroll;
+    padding-top: 70px;
+    
+}
+.up{
+    width: 80%;
+    height: 70px;
+    background-color: #67B36A;
+    border-radius: 13px 13px 0px 0px;
+    line-height: 70px;
+    font-size: 1.3em;
+    color: #EBE9E9;
+    position: fixed;
+    top: 0px;
+}
+.up p{
+    display: inline;
+}
+
+.up .fa-comment{
+    padding-right: 60px;
+    padding-left: 15px;
+}
+.up .fa-close{
+  float: right;
+  position: relative;
+  top: 25px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 1.2em;
+  color: #EBE9E9
+
+    
+}.up .fa-close:hover{
+    top: 20px;
+    font-size: 1.3em;
+    color:rgb(197, 176, 176);
+    transition: all 0.2s linear;
+}
+
+.mesaj{
+    width: 250px;
+    height: 50px;
+    background-color: #67B36A;
+    color:#EBE9E9;
+    font-size: 1.3em;
+    border-radius: 7px;
+    line-height: 50px;
+    position: absolute;
+    right: 1%;
+    bottom: 1%;
+    text-align: center;
+    cursor: pointer;
+    
+
+}
+.mesaj:hover{
+    background-color: rgb(118, 218, 121);
+    font-size: 1.4em;
+    transition: all 0.2s linear;
+    
+}
+
+.mesaj p{
+    display: inline;
+    padding-right: 40px;
+    padding-left: 10px;
+}
+.writing{
+    margin-top:50px;
+    width: 100%;
+    height: 70px;
+    background-color: #50575C;
+    border-radius: 13px;
+}
+.writing input{
+    height: 50px;
+    margin-top: 10px;
+    width: 80%;
+    border-radius: 13px;
+    background-color: #50575C;
+    color: rgb(111, 116, 121);
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    font-size: 1.3em;
+    overflow-y: scroll;
+}
+.writing i.fa{
+    color: #67B36A;
+    float: right;
+    font-size: 3em;
+    margin-top: 13px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.middle{
+    width: 94%;
+    margin: 0% auto;
+    height: 112px;
+    
+}
+.middle .img{
+   background-image: url("call.jpg");
+   height: 80px;
+   width:80px;
+   background-size: cover;
+   float: left;
+   border-radius: 13px;
+   margin-right: 20px;
+}
+.middle .girltxt{
+    line-height: 80px;
+    font-size: 1.3em;
+    color: #EBE9E9;
+    
+}
+hr{
+    margin-top: 10px;
+    border-color: gray;
+}
+.middle1 .img1{
+    background-image: url("user.jpg");
+    height: 80px;
+    width:80px;
+    background-size: cover;
+    border-radius: 13px;
+    float: right;
+   
+}
+.middle1 .boytxt{
+ 
+    font-size: 1.3em;
+    color: #EBE9E9;
+    height: auto;
+    width: 500px;
+    float: right;
+    margin-right: 15px;
+   
+}
+
+.middle1{
+    padding-top: 10px;
+    width: 94%;
+    margin: 1% auto;
+    height:112px;
+   
+}
+.middle1 .line{
+    margin-top: 10px;
+    border-color: gray;
+
+}
+.clear{
+    clear: both;
+}
+.span{
+    line-height: 100px;
+    font-size: 1.3em;
+    color: #EBE9E9;
+    float: right;
+    margin-right: 10px;
+
+}
+.material-icons{
+    top: 14px;
+    float: right;
+    font-size: 2em;
+    position: relative;
+    right: 112px;
+    cursor: pointer;
+    display: none;
+    
+}
+.material-icons:hover{
+    color:rgb(197, 176, 176);
+    transition: all 0.2s linear;
+    font-size: 2.5em;
+    top: 12px;
+    
+}
+.selected{
+    background: green;
+}
